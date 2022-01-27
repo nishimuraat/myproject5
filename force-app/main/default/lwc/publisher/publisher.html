@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" value={keyword.keyword1} label="キーワード1" placeholder="キーワード1を入れてください" onchange={keyword1Handler}>></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" value={keyword.keyword2} label="キーワード2" placeholder="キーワード2を入れてください" onchange={keyword2Handler}>></lightning-input>
+    </div>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-button variant="brand" label="実行" title="実行します" onclick={executePubHandler} ></lightning-button>
+    </div>
+</template>
